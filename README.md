@@ -12,11 +12,7 @@ The solution relies on three core DAX functions working together:
 ### 1. The Identity (`USERPRINCIPALNAME`)
 Captures the email address of the user currently viewing the report. This is the "Key" that unlocks the specific data rows.
 <img width="758" height="510" alt="image" src="https://github.com/user-attachments/assets/b7aef247-fb12-451a-a332-3d9e599e4c28" />
-### 2. The Map (`PATH`)
 
-OrgPath = PATH(Employees[EmployeeID], Employees[ManagerID])
-### This creates a breadcrumb trail, such as 101 | 102 | 104, representing the full reporting line.
-<img width="593" height="131" alt="image" src="https://github.com/user-attachments/assets/b1f7970b-4b00-4b74-81bf-27ed621e02bd" />
 ### 2. The Map (`PATH`)
 A calculated column that flattens the parent-child relationship (Employee -> Manager) into a single string.
 dax
