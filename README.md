@@ -52,7 +52,3 @@ Single Source of Truth: Centralized security logic in the dimension table.
 Scalability: The model automatically handles new hires without requiring manual role updates.
 
 Performance: Leverages the Star Schema to allow filters to ripple from the Employee table to the Fact (Sales) table.
-
-Author: Linda
-
-Role:Business Intelligence Analyst
