@@ -11,6 +11,9 @@ The solution relies on three core DAX functions working together:
 
 ### 1. The Identity (`USERPRINCIPALNAME`)
 Captures the email address of the user currently viewing the report. This is the "Key" that unlocks the specific data rows.
+You may create a measure  for the Identity as shown below:
+<img width="1310" height="290" alt="image" src="https://github.com/user-attachments/assets/c97a7616-c43b-485c-a8f1-1e3a494f3198" />
+Visualize the currently logged in user using a card.
 <img width="758" height="510" alt="image" src="https://github.com/user-attachments/assets/b7aef247-fb12-451a-a332-3d9e599e4c28" />
 
 ### 2. The Map (`PATH`)
